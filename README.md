@@ -26,18 +26,18 @@ Incorrect Spelling "Buz". This should be "Buzz"
 
 **Changes**
 
-1.) Change At: FizzBuzzGenerator > divisibleBy() return numerator % Denominator == 2; to return numerator % Denominator == 0;
+1.) Change At: FizzBuzzGenerator > divisibleBy() return numerator % Denominator == 2; **to return numerator % Denominator == 0;**
 
 Reason: solves initial problem of not returning true and incorrect triggering of FizzBuzz word
 
-2.) Change At: FizzBuzzGenerator > FizzBuzz() for (int i = startNumber; i <endNumber ; i++) { to for (int i = startNumber; i <= endNumber ; i++) {
+2.) Change At: FizzBuzzGenerator > FizzBuzz() for (int i = startNumber; i <endNumber ; i++) { **to for (int i = startNumber; i <= endNumber ; i++) {**
 
 Reason: Returns expected 15 values
 
-3.) Changed logical operator At: FizzBuzzGenerator > FizzBuzz() if(divisibleBy(i, 3) || divisibleBy(i, 5)) fizzBuzzList.add("FizzBuzz"); to if(divisibleBy(i, 3) && divisibleBy(i, 5)) fizzBuzzList.add("FizzBuzz");
+3.) Changed logical operator At: FizzBuzzGenerator > FizzBuzz() if(divisibleBy(i, 3) || divisibleBy(i, 5)) fizzBuzzList.add("FizzBuzz"); **to if(divisibleBy(i, 3) && divisibleBy(i, 5)) fizzBuzzList.add("FizzBuzz");**
 
 Reason: ensures that the actual value returned was "FizzBuzz" instead of "Fizz".
 
-4.) Changed: At FizzBuzzGenerator > FizzBuzz() else if (divisibleBy(i, 5)) fizzBuzzList.add("Buz"); to else if (divisibleBy(i, 5)) fizzBuzzList.add("Buzz");
+4.) Changed: At FizzBuzzGenerator > FizzBuzz() else if (divisibleBy(i, 5)) fizzBuzzList.add("Buz"); **to else if (divisibleBy(i, 5)) fizzBuzzList.add("Buzz");**
 
 Reason: corrects the spelling mistake of "Buz". This should be "Buzz"
