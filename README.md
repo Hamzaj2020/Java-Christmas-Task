@@ -1,7 +1,7 @@
 # Java-Christmas-Task
 Engineering 50 Java Christmas Tasks
 
-Intellij and Java 13
+**Intellij and Java 13**
 
 **Methodology**
 
@@ -9,20 +9,15 @@ Read through the code to find out what needs to be corrected for each problem. A
 
 **Testing**
 
-1)
-
-divisibleBy(4,2) should return true (i.e. 4 is taken to be divisible by 2)
+1.)  divisibleBy(4,2) should return true (i.e. 4 is taken to be divisible by 2)
 Result before changes: false
 Result after change : true
 Problems found: Does not return true
-2)
 
-divisibleBy(3,2) should return false (i.e. 3 is taken to NOT be divisible by 2)
+2.)  divisibleBy(3,2) should return false (i.e. 3 is taken to NOT be divisible by 2)
 Result before changes: false
-3)
 
-This tests whether the actual returned values are between 1 and 15. fizzBuzzGenerator(1,15) should return ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
-
+3.)   This tests whether the actual returned values are between 1 and 15. fizzBuzzGenerator(1,15) should return ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
 *problems found*:
 spelling mistake in the 9th element "buzz". This should be "Buzz"
 Only 14 returned values instead of 15
