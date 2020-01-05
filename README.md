@@ -18,6 +18,7 @@ Problems found: Does not return true
 Result before changes: false
 
 3.)   This tests whether the actual returned values are between 1 and 15. fizzBuzzGenerator(1,15) should return ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
+
 *problems found*:
 spelling mistake in the 9th element "buzz". This should be "Buzz"
 Only 14 returned values instead of 15
